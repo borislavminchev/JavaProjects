@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Borislav</first_name>
+	<last_name>Mintchev</last_name>
+	<phone_number>08888888888</phone_number>
+	<notes>This is contact for experiment</notes>
+</contact>
+<contact>
+	<first_name>b</first_name>
+	<last_name>b</last_name>
+	<phone_number>655</phone_number>
+	<notes>hgf</notes>
+</contact>
+<contact>
+	<first_name>d</first_name>
+	<last_name>d</last_name>
+	<phone_number>345</phone_number>
+	<notes>n</notes>
+</contact>
+<contact>
+	<first_name>g</first_name>
+	<last_name>g</last_name>
+	<phone_number>0844</phone_number>
+	<notes>notes</notes>
+</contact>
+</contacts>
