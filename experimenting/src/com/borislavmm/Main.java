@@ -1,22 +1,41 @@
 package com.borislavmm;
 
-import java.util.Arrays;
+import com.borislavmm.Triangle;
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.sql.ResultSet;
+import java.sql.Timestamp;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+class Result {
+
+    public static List<String> triangleType(List<String> triangleToy) {
+
+        return triangleToy.stream()
+                .map(i -> Arrays.stream(i.split(" "))
+                        .collect(Collectors.toList()))
+                .map(Triangle::new)
+                .map(Triangle::determineType)
+                .collect(Collectors.toList());
+    }
+}
+
+
+
 
 public class Main {
-
-    public static void main(String[] args) throws Exception {
-//    for establishing connection and executing a query
-//
-//    Class.forName("com.mysql.cj.jdbc.Driver");
-//    String url = "jdbc:mysql://localhost:3306/test";
-//    Connection connection = DriverManager.getConnection(url,"root", "B21032001pi/6");
-//    Statement stmt = connection.createStatement();
-//    String query = "SELECT * FROM test.persons;";
-//    ResultSet res = stmt.executeQuery(query);
-
-//        TestdbRecord record = new TestdbRecord(6, "saso", "georgieff", 21);
-//        record.addRecord();
-//        TestdbRecord.printRecords();
-        
+    public static void main(String[] args) throws IOException {
+        ResultSet rs = null;
+        rs.updateTimestamp("aaaaaa", Timestamp.valueOf());
     }
 }

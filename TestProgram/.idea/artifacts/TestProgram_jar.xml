@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TestProgram:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TestProgram_jar</output-path>
+    <root id="archive" name="TestProgram.jar">
+      <element id="module-output" name="TestProgram" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-8.0.28.jar" path-in-jar="/" />
+      <element id="library" level="project" name="mysql-connector-java-8.0.28" />
+    </root>
+    <excludes>
+      <exclude>META-INF/*.SF</exclude>
+      <exclude>META-INF/*.DSA</exclude>
+      <exclude>META-INF/*.RSA</exclude>
+    </excludes>
+  </artifact>
+</component>
